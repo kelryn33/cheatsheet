@@ -1,9 +1,41 @@
 html {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: cadetblue;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color:antiquewhite;
+    font-weight: 100;
 }
 
 .code {
     font-family: 'Courier New', Courier, monospace;
-    background-color: aliceblue;
+    background-color: teal;
+    color:white;
+}
+
+td {
+    color: slategray;
+}
+
+th {
+    background-color: steelblue;
+
+}
+
+th, tr, td {
+    border: 3px solid rgb(175, 182, 216);
+    height: 30px;
+    padding: 0 20px;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    background-color:white;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
 }
